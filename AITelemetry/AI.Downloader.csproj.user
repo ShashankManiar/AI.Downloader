@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>query --appInsightId ffff7474-a3ac-41f6-9dc6-abee95fedfff --appInsightKey ffffq2hpmf7qo6mfo5k4lzpy0diq7dryuwpkffff --startDate 2018-05-06 --days 2 --folderPath C:\tfl --aiQuery "requests | where timestamp &gt; ago%281d%29"</StartArguments>
+  </PropertyGroup>
+</Project>
